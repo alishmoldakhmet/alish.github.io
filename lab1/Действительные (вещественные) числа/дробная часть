@@ -1,0 +1,4 @@
+import math 
+a=float(input())
+b=round((a%1),9)
+print(b)
