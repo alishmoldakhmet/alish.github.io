@@ -1,0 +1,6 @@
+a=input()
+b=len(a)
+d=int((float(b)/2)+0.5)
+c=a[:d]
+e=b-d
+print(a[d:b+1]+c)
