@@ -1,0 +1,9 @@
+a=input()
+e=a.find('f')
+b=a.rfind('f')
+if (b and e)==-1:
+    print()   
+elif e==b:
+    print(e)     
+else:
+    print(e,b)    
