@@ -1,1 +1,11 @@
-
+электронные часы 2
+def clock(n):
+ if 0<=n<=9:
+    return "0"+str(n)
+ else: 
+    return str(n)    
+n=int(input())
+h=str((n%86400)//3600)
+mm=((n%86400)-(((n%86400)//3600)*3600)-n%60)//60
+ss=n%60
+print(h+":"+clock(mm)+":"+clock(ss))
