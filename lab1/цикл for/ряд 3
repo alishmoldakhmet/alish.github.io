@@ -1,0 +1,6 @@
+a=int(input())
+b=int("9"*a)
+c=10**(a-1)
+for i in range(b,c-1,-1):
+    if i%2==1:
+        print(i)
