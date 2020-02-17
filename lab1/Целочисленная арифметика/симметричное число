@@ -1,0 +1,10 @@
+import random
+a=input()
+if int(a)%1000==int(a):
+  a=int("0"+a)
+else:
+  a=int(a)
+if (a%10==a//1000)and(((a%100)//10)==((a//100)%10)):
+    print(1) 
+else:
+    print(int(100*random.random()))     
