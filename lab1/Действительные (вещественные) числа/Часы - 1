@@ -1,0 +1,8 @@
+import math
+h=int(input())
+m=float(input())
+s=int(input())
+
+d=360*(3600*h+60*m+s)/43200
+
+print(str(d))
