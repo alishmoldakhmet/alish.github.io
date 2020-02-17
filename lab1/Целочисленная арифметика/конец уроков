@@ -1,0 +1,14 @@
+def clock(n):
+ if 0<=n<=9:
+    return "0"+str(n)
+ else:
+    return n    
+a=int(input())
+b=(a*45)+((a//2)*15)+((a-(a//2))*5)
+if a%2==0:
+    b=b-15
+else:
+    b=b-5
+c=str(9+(b//60))   
+d=str(clock(b%60))
+print((c)+" "+(d))
